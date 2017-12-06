@@ -1,0 +1,830 @@
+/* Website template by freewebsitetemplates.com */
+/*------------------------- Layout styles ------------------------*/ 
+body{
+	margin: 0;
+	background-color: #fff;
+}
+#page{
+	background: url(../images/bg-header.jpg) no-repeat center top #fff;
+	min-width: 960px;
+}
+.page{
+	background:url(../images/bg-headliner.jpg) no-repeat center top #fff;
+	min-width: 960px;
+}
+p a,h3 a{
+	text-decoration: underline;
+	color: #8B8B8B;
+}
+
+/*-------------------------	Font Face --------------------------*/
+
+/*-------------------------	Header --------------------------*/
+#header{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#header a#logo{
+	display: block;
+    height: 119px;
+    margin: 0 0 0 25px;
+    _margin: 0 0 0 12px;
+    padding: 11px 0 0;
+    width: 264px;
+	float: left;
+}
+#header a#logo img{
+	border: 0;
+}
+#header ul#navigation{
+	float: left;
+	margin: 50px 0 0 40px;
+	padding: 0;
+	list-style: none;
+}
+#header ul#navigation li.first{
+	margin: 0;
+}
+#header ul#navigation li{
+	float: left;
+	height: 28px;
+	margin: 0 0 0 33px;
+	_margin: 0 0 0 23px;
+	padding: 0 0 0 9px;
+}
+#header ul#navigation li.selected{
+	background: url(../images/bg-menu-left.gif) no-repeat left top;
+}
+#header ul#navigation li a{
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 1px 1px 0 #713c12, -1px -1px 0 #713c12, -1px 1px 0 #713c12, 1px -1px 0 #713c12;
+	font-size: 15px;
+	font-family: arial;
+	display: block;
+	height: 28px;
+	line-height: 26px;
+	padding: 0 20px 0 9px;
+	display: inline-block;
+}
+#header ul#navigation li.selected a{
+	color: #ffec00;
+	background: url(../images/bg-menu-right.gif) no-repeat right top;	
+}
+#header ul#navigation li a:hover{
+	color: #ffec00;
+}
+#header div#featured{
+	clear: both;
+	margin: 0 0 0 180px;
+	padding: 30px 0 0 0;
+	height: 530px;
+}
+#header div#featured a{
+	position: relative;
+	top: 320px;
+	top: 320px;
+	left: 522px;
+	color: #480500;
+	font-size: 13px;
+	font-family: arial;
+	text-decoration: none;
+}
+#header div#featured img{
+	position: absolute;
+}
+#header div#featured h3{
+	margin: 0;
+	position: relative;
+	top: 320px;
+	font-size: 23px;
+	color: #603500;
+	font-family: arial;
+	left: 245px;
+	font-weight: bold;
+	font-style: italic;
+	width: 340px;
+}
+#header div#featured p{
+	position: relative;	
+	top: 320px;
+	margin: 0;
+	text-align: right;
+	right: 195px;
+	line-height: 20px;
+	font-size: 14px;
+	font-family: arial;
+	color: #a8947b;
+}
+	
+/*-------------------------	Content --------------------------*/
+#content{
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#content  div#home{
+	overflow: hidden;
+}
+#content  div#home ul{
+	list-style: none;
+	margin: 30px 0 0 0;
+	padding: 0;
+	float: left;
+}
+#content  div#home ul li{
+	width: 301px;
+	height: 60px;
+	margin: 0 0 10px 0;
+}
+#content  div#home ul li a{
+	display: block;
+}
+#content  div#home ul li a img{
+	border: 0;
+}
+#content  div#home ul li a img:hover{
+	opacity:0.8;
+}
+#content  div#home div.first{
+	float: left;
+	margin: 0 0 0 30px;
+}
+#content  div#home div h3{
+	margin: 22px 0 10px;
+	font-family: arial;
+	font-size: 35px;
+	color: #ff6b00;
+	text-shadow: 0 1px 0 #ffe471;
+}
+#content  div#home div.first p{ 
+	width: 303px;
+	*margin-left: -40px;
+}
+#content  div#home div{
+	float: left;
+	margin: 63px 0 0 -10px;
+	text-align: center;
+}
+#content  div#home div p{
+	text-align: justify;
+	font-family: arial;
+	font-size: 14px;
+	color: #6b6253;
+	line-height: 24px;
+	width: 282px;
+}
+#content  div#home div a img,#content div#sidebar div.featured a img,
+#content div div#figure a img,#content div#menu ul li a img{ 
+	border: 0;
+}
+#content  div#home div a img:hover,#content div#menu ul li a img:hover{ 
+	opacity:0.8;
+}
+#content  div#sidebar ul{
+	list-style: none;
+	margin: 9px 0 0 0;
+	padding: 0;
+}
+#content div#sidebar{
+	overflow: hidden;
+	float: left;
+	width: 300px;
+	margin: 61px 40px 0 0;
+}
+#content  div#sidebar ul li{
+	width: 301px;
+	height: 60px;
+	margin: 0 0 10px 0;
+	*margin: 0 0 6px 0;
+}
+#content  div#sidebar ul li a{
+	display: block;
+}
+#content  div#sidebar ul li a img{
+	border: 0;
+}
+#content  div#sidebar ul li a img:hover{
+	opacity:0.8;
+}
+#content div#sidebar div.featured{
+	height: 470px;
+	width: auto;
+ 	background: url(../images/interface.jpg) no-repeat 0 -360px;
+	padding: 15px 9px;
+	margin: 0;
+	*margin: 26px 0 0;
+}
+#content div#sidebar p{
+	margin: 0 0 30px 0;
+	width: 300px;
+}
+#content div{
+	float: left;
+	margin: 60px 0 0 0;
+}
+#content div h2{
+	font-family: arial;
+    font-style: italic;
+    font-weight: normal;
+    margin: 0;
+	color: #301a00;
+	font-size: 38px;
+}
+#content div h3{
+	font-family: arial;
+    font-weight: normal;
+    margin: 0;
+	color: #473521;
+	font-size: 18px;
+}
+#content div p{
+	width: 615px;
+	text-align: justify;
+	font-size: 14px;
+	font-family: arial;
+	color: #7f6a55;
+	margin: 0 0 35px;
+	line-height: 24px;
+}
+#content div p a{
+	color: #7F6A55;
+	text-decoration: underline;
+}
+#content div#menu{
+	width: 610px;
+	position: relative;
+}
+#content div#menu ul{
+	list-style: none;
+	padding: 0;
+	margin: 0 0 0 -15px;
+}
+#content div#menu ul li{
+	background: url(../images/bg-food-menu.jpg) no-repeat;
+    width: 585px;
+	height: 150px;
+	padding: 10px 0 0 35px;
+	position: relative;
+}
+#content div#menu ul li h4{
+	margin: 0;
+	text-shadow: 0 1px 0 #ffe471;
+}
+#content div#menu ul li h4 a{
+	position: static;
+	font-family: arial;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 28px;
+	color: #b46f12;
+}
+#content div#menu ul li h5{
+	margin: 5px 0;
+	font-family: arial;
+	font-size: 18px;
+	color: #2c1a02;
+	font-weight: normal;
+}
+#content div#menu ul li p{
+	width: 270px;
+}
+#content div#menu ul li a{
+	position: absolute;
+	right: 0;
+    top: 1px;
+}
+#content div#menu a{
+	position: absolute;
+    right: 4px;
+    _right: 20px;
+    top: 19px;
+	font-family: arial;
+	font-size: 16px;
+	text-decoration: none;
+	color: #2c1a02;
+}
+#content div#menu a:hover{
+	color: #b46f12;
+}
+#content div#menu div{
+	float: none;
+    margin: 0 0 0 -15px;
+	background: url(../images/bg-menu-page.gif) no-repeat;
+	width: 615px;
+	height: 816px;
+	_width: 600px;
+}
+#content div#menu div div#chinese{
+	background: url(../images/chinese-mix-rice.jpg) no-repeat 299px 1px;
+	margin: 0;
+	padding-left: 35px;
+	overflow: hidden;
+}
+#content div#menu div div#vietnamese{
+	background: url(../images/vietnamese-mix-rice.jpg) no-repeat 297px 1px;
+	margin: 0;
+	padding-left: 35px;
+	overflow: hidden;
+}
+#content div#menu div div#japanese{
+	background: url(../images/japanese-mix-rice.jpg) no-repeat 331px 1px;
+	margin: 0;
+	padding-left: 35px;
+	overflow: hidden;
+}
+#content div#menu div div#filipino{
+	background: url(../images/flipino-mix-rice.jpg) no-repeat 299px 1px;
+	margin: 0;
+	padding-left: 35px;
+	overflow: hidden;
+}
+#content div#menu div div#korean{
+	background: url(../images/korean-mix-rice.jpg) no-repeat 311px 1px;
+	margin: 0;
+	padding-left: 35px;
+	overflow: hidden;
+}
+#content div#menu div div h4{
+	margin: 0;
+	font-family: arial;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 28px;
+	color: #b46f12;
+	text-shadow: 0 1px 0 #ffe471;
+	padding-top: 10px;
+}
+#content div#menu div div h5{
+	margin: 5px 0;
+	font-family: arial;
+	font-size: 18px;
+	color: #2c1a02;
+	font-weight: normal;
+}
+#content div#menu div div p{
+	width: 245px;
+	height: 192px;
+	text-align: left;
+	margin: 0 0 15px;
+}
+#content div#menu div div h6{
+	margin: 0 0 30px;
+	font-family: arial;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 28px;
+	color: #b46f12;
+	text-align: center;
+	text-shadow: 0 1px 0 #ffe471;
+}
+#content div table.first, #content div table table{
+	margin: 0;
+}
+#content div table{
+	float: left;
+	margin: 0 0 0 65px;
+}
+#content div table tr td{
+	font-family: arial;
+	font-size: 18px;
+	padding: 0;
+	color: #301A00;
+}
+#content div table.first table td.product{
+	width: 225px;
+}
+#content div table table td.product{
+	width: 205px;
+	padding: 0 0 5px;
+}
+#content div table table td.description{
+	font-size: 14px;
+	color: #766048; 
+	padding: 0 0 25px ;
+}
+#content div#sidebar div#archives{
+	float: none;
+	margin: 0;
+	overflow: hidden;
+}
+#content div#sidebar div#archives h2{
+	font-size: 20px;
+	font-style: normal;
+	margin: 0 0 5px 20px;
+}
+#content div#sidebar div#archives div{
+	margin: 0 0 0 20px;
+	position: relative;
+}
+#content div#sidebar div#archives div h3{
+	background: url(../images/bg-archives-heading.jpg) no-repeat;
+	height: 49px;
+	float: left;
+	width: 220px;
+	color: #ff9600;
+	line-height: 45px;
+	text-indent: 15px;
+}
+#content div#sidebar div#archives div h3 a{
+	color: #BC6811;
+    height: auto;
+    position: static;
+    text-decoration: none;
+    width: auto;
+	background: none;
+}
+#content div#sidebar div#archives div a.selected{
+	background: url(../images/icons.gif) no-repeat 0 -24px;
+}
+#content div#sidebar div#archives div a{
+	background: url(../images/icons.gif) no-repeat;
+	width: 12px;
+	height: 14px;
+	text-indent: -99999px;
+	position: absolute;
+	top: 16px;
+	right: 15px;
+}
+#content div#sidebar div#archives div ul{
+	clear: both;
+	padding: 0 0 10px;
+}
+#content div#sidebar div#archives div ul li.first{
+	padding: 10px 0 0;
+}
+#content div#sidebar div#archives div ul li{
+    margin: 0;
+    width: auto;
+	line-height: 30px;
+	height: 24px;
+}
+#content div#sidebar div#archives div ul li a:hover{
+	color: #FF9600;
+}
+#content div#sidebar div#archives div ul li a{
+	background: none;
+    position: static;
+    text-indent: 27px;
+    width: auto;
+	color: #766048;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 14px;
+	height: auto;
+}
+#content div#sidebar div#archives div ul li a span{
+	color: #BC6811;
+}
+#content div#sidebar div#connect{
+	float: none;
+    margin: 20px 0;
+    *margin: 20px 0 0;
+	background: url(../images/interface.jpg) no-repeat;
+	height: 350px;
+	width: 300px;
+}
+#content div#sidebar div#connect h2{
+	font-family: arial;
+	font-size: 30px;
+	color: #2e1800;
+	text-shadow: 1px 1px 0 #F1C557;
+	padding: 20px 0 0 25px;
+}
+#content div#sidebar div#connect ul{
+	margin: 0 auto;
+    width: 240px;
+}
+#content div#sidebar div#connect ul li.first{
+	background: none;
+}
+#content div#sidebar div#connect ul li{
+	width: 240px;
+	background: url(../images/bottom-border-social-sites.jpg) no-repeat center top;
+	padding: 20px 0 0 0;
+	height: 50px;
+	margin: 0;
+}
+#content div#sidebar div#connect ul li a{
+	display: block;
+	line-height: 38px;
+	padding: 0 0 0 55px;
+	font-family: arial;
+	font-size: 20px;
+	text-decoration: none;	
+	color: #2e1800;
+	text-shadow: 0 1px 0 #F1C557;
+	margin: 0 0 0 45px;
+}
+#content div#sidebar div#connect ul li a.facebook{
+	background: url(../images/icons.gif) no-repeat 0 -88px;
+	width: 40px;
+	height: 41px;
+}
+#content div#sidebar div#connect ul li a.subscribe{
+	background: url(../images/icons.gif) no-repeat 0 -251px;
+	width: 40px;
+	height: 40px;
+}
+#content div#sidebar div#connect ul li a.twitter{
+	background: url(../images/icons.gif) no-repeat 0 -301px;
+	width: 40px;
+	height: 40px;
+}
+#content div#sidebar div#connect ul li a.flicker{
+	background: url(../images/icons.gif) no-repeat 0 -170px;
+	width: 40px;
+	height: 40px;
+}
+#content div div#article{
+	float: none;
+    margin: -15px 0 0;
+	width: 620px;
+}
+#content div div#article div.first{
+	margin: 0;
+}
+#content div div#article div{
+	float: none;
+    margin:10px 0 0;
+	background: url(../images/bg-post-header.gif) no-repeat center top;
+	padding: 58px 0 0;
+	position: relative;
+}
+#content div div#article div div.first{}
+#content div div#article div div{
+	float: none;
+    margin: 0;
+	background: url(../images/bg-post.gif) repeat-y !important;
+	padding: 0;
+	position: static;
+}
+#content div div#article div div div{
+	background: url(../images/bg-post-footer.gif) no-repeat center bottom !important;
+	padding: 0 0 230px;
+	
+}
+#content div div#article div div div h4{
+	margin: 0;
+	font-family: arial;
+	font-size: 18px;
+	color: #301a00;
+	position: absolute;
+	top: 18px;
+	left: 39px;
+	font-weight: normal;
+	text-shadow: 0 1px 0 #f1c557;
+	width: 70px;
+	height: 13px;
+}
+#content div div#article div div div h6{
+	margin: 0;
+	position: absolute;
+	color: #301a00;
+	font-size: 25px;
+	font-family: arial;
+	font-weight: normal;
+    left: 145px;
+	top: 25px;
+}
+#content div div#article div div div h3{
+	color: #ff9600;
+	font-size: 18px;
+	margin: 0 0 0 20px;
+    padding: 5px 0;
+	width: 560px;
+}	
+#content div div#article div div p{
+	width: 560px;
+	margin: 0 0 0 20px;
+	padding: 0 0 20px 0;
+	font-size: 14px;
+	color: #766048;
+}
+#content div div#article div div div p span{
+	color: #2e1800;
+	font-size: 18px;
+}
+#content div div#article div div div div.share{
+	height: 21px;
+	margin: 0;
+	padding: 0;
+	background: url(../images/bg-post.gif) repeat-y !important;
+	width: 80px;
+	position: absolute;
+    top: 26px;
+	overflow: hidden;
+	right: 139px;
+}
+#content div div#article div div div div.share a.twitter{
+	display: inline-block;
+	*float: left;
+	background: url(../images/icons.gif) no-repeat 0 -351px;
+	text-indent: -99999px;
+	width: 20px;
+	height: 21px;
+	margin: 0 6px 0 0;
+}
+#content div div#article div div div div.share a.heart{
+	display: inline-block;
+	*float: left;
+	background: url(../images/icons.gif) no-repeat 0 -220px;
+	text-indent: -99999px;
+	width: 20px;
+	height: 21px;
+	margin: 0 6px 0 0;
+}
+#content div div#article div div div div.share a.facebook{
+	display: inline-block;
+	*display: block;
+	background: url(../images/icons.gif) no-repeat 0 -139px;
+	text-indent: -99999px;
+	width: 20px;
+	height: 21px;
+}
+#content div div#pagination{
+	background: none!important;
+	padding: 25px 20px!important;
+    position: static !important;
+	text-align: left;
+}
+#content div div#pagination a.first{
+	margin: 0;
+}
+#content div div#pagination a{
+	color: #dccdbc;
+	font-size: 20px;
+	display: inline-block;
+	font-family: arial;
+	text-decoration: none;
+	margin: 0 0 0 400px;
+}
+#content div div#pagination a:hover{
+	color: #8d7f70;
+}
+#content div div#contact{
+	float: none;
+    margin: 10px 0 0;
+}
+#content div div#contact p{
+	margin: 5px 0 25px;
+}
+#content div div#contact p span{
+	color: #ff9600;
+	font-size: 18px;
+}
+#content div div#contact form{
+	
+}
+#content div div#contact form label{
+	color: #635f5a;
+	font-family: arial;
+	font-size: 16px;
+	display: block;
+}
+#content div div#contact form input{
+	background: url(../images/icons.gif) no-repeat 0 -382px;
+	width: 330px;
+	height: auto;
+	border: 0;
+	margin: 5px 0 15px;
+	padding: 8px 5px;
+	color: #635f5a;
+}
+#content div div#contact form textarea{
+	display: block;
+	padding: 10px;
+    width: 590px;
+	min-height: 415px;
+	border: 1px solid #BAB7B1;
+	color: #635f5a;
+	font-family: arial;
+	font-size: 14px;
+}
+#content div div#contact form input#submit{
+	width: 120px;
+	height: 30px;
+	background: url(../images/icons.gif) no-repeat 0 -48px;
+	text-align: right;
+	margin: 20px 0 0;
+	padding: 0;
+	float: right;
+}
+
+/*-------------------------	Footer --------------------------*/
+#footer{
+	padding: 15px 0 0;
+}
+#footer div{
+	width: 960px;
+	margin: 0 auto;
+	background: url(../images/bg-footer.jpg) no-repeat;
+	padding: 0 0 56px;
+	_padding: 0 0 30px;
+	height: 312px;
+	
+}
+#footer div div{
+	background: none;
+	float: left;
+	width: auto;
+}
+#footer div div.section1 h4{
+	font-size: 20px;
+	font-family: arial;
+	color: #FF6B00;
+	text-shadow: 0 1px 0 #fff;
+	font-style: italic;
+	margin: -10px 0 0 40px;
+	width: 215px;
+}
+#footer div div.section1 p{
+	font-family: arial;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 0 0 0 40px;
+	_margin: 0 0 0 20px;
+    text-align: justify;
+    width: 240px;
+	float: left;
+	color: #b56b12;
+}
+#footer div div.section1 a{
+	line-height: 0;
+    margin: 0;  
+    width: auto;
+	display: block;
+	float: none;
+}
+#footer div div.section1 p a{
+	color: #4a0000;
+    font-family: arial;
+    font-size: 13px;
+	text-decoration: none;
+	display: inline;
+}
+#footer div div.section1 p a:hover{
+	color: #FF6B00;
+}
+#footer div div.section2 a{
+	margin: 0;
+}
+#footer div div a img{
+	border: 0;
+}
+#footer div div.section2 p a{
+	display: inline;
+	text-decoration: none;
+	color: #4A0000;
+}
+#footer div div.section2 p a:hover{
+	color: #FF6B00;
+}
+#footer div div.section3 p{
+	margin-left: 72px;
+	margin-top: 4px
+}
+#footer div div.section3 p a{
+	display: inline;
+	text-decoration: none;
+	color: #4A0000;
+	margin: 0;
+}
+#footer div div.section3 p a:hover{
+	color: #FF6B00;
+}
+#footer div div p{
+	font-family: arial;
+    font-size: 12px;
+    line-height: 21px;
+    margin: 0 0 0 40px;
+    text-align: justify;
+    width: 245px;
+	color: #fff;
+}
+#footer div div p span{
+	color: #FF6B00;
+}
+#footer div div.section3 a{
+	line-height: 0;
+    width: auto;
+	display: block;
+	float: none;
+	margin: 0 0 0 33px;
+}
+#footer div#footnote {
+	background: url(../images/bg-copyright.gif) repeat-x;
+	height: 47px;
+	width: auto;
+	padding: 0;
+}
+#footer div#footnote p{
+	text-align: center;
+	margin: 0;
+	padding-top: 20px;
+	color: #ffd161;
+	font-family: arial;
+	font-size: 12px;
+	text-shadow: 0 1px 0 #915800;
+}
